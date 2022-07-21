@@ -28,24 +28,8 @@ button.addEventListener("click", async function () {
     if (inputValue.value == dataa.capital || (inputValue.value == dataa.name.common)) {
       div4.innerHTML = `<div class = "card text-center container ccontainer">
              <div class= "card-header p-5 chead"><h3>${dataa.name.common}</h3></div><img src="${dataa.flags.png}"><div><h5>City: ${dataa.capital}</h5><h5>Region: ${dataa.region}</h5><h5>Country Code: ${dataa.cca2}</h5></div>
-             <button class="WeatherButton">Weather</button>
              </div>`
       dev1.appendChild(div4)
-      let wet = document.querySelector(".WeatherButton")
-      wet.addEventListener("click", () => {
-        let div6 = document.createElement("div")
-        div6.innerHTML = `
-               <h3>Weather</h3><h5>Temp: ${dat.main.temp}°C</h5>
-               <h5>Weather: ${dat.weather[0].main}</h5>
-               <h5>Description: ${dat.weather[0].description}</h5>
-               <h5>humidity: ${dat.main.humidity}</h5>
-               <h5>pressure: ${dat.main.pressure}</h5>
-               </div>`
-        let app = document.querySelector(".ccontainer")
-        app.appendChild(div6)
-        wet.innerHTML = ""
-
-      })
     }
     else {
       div5.innerHTML = `<div class = "card text-center container ccontainer">
