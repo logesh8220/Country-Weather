@@ -1,0 +1,33 @@
+ body{
+    background: linear-gradient(to right,#f33158,#3168fd);
+}
+
+.card {
+    width: 20rem;
+    box-shadow: 4px 4px 32px;
+    margin-bottom: 30px;
+
+}
+nav {
+    background-color: rgb(250, 57, 105);
+    height: 50px;
+    color: aliceblue;
+    text-align: center;
+    font-family: 'sans-serif';
+    font-weight: bolder;
+}
+button {
+    background-color:rgb(54, 216, 54) ;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 1px 1px 3px;
+}
+
+button:hover{
+  box-shadow: 3px 3px 32px rgb(56, 226, 56);
+  transition: ease-in-out 0.2s;
+}
+

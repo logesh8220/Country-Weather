@@ -1,0 +1,105 @@
+body{
+    background: linear-gradient(to right,#f33158,#3168fd);
+}
+.con {
+    display:flex;
+    justify-content: center;
+    margin-top: 10rem;
+
+}
+.inputValue {
+    width: 40rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #6f42c1;
+    outline: none;
+    /* text-transform: capitalize; */
+    
+}
+.inputValue:hover {
+    border: 1px solid #6f42c1;
+    box-shadow: 1px 1px 12px #6f42c1;
+    transition: ease-in-out 0.2s;
+}
+.button {
+    width: 100px;
+    border: none;
+    border-radius:7px;
+    margin-left: 3px;
+    background-color: white;
+    border: 1px solid #6f42c1;
+}
+.button:hover {
+    border: 1px solid #6f42c1;
+    box-shadow: 1px 1px 12px #6f42c1;
+    background-color: rgb(250, 57, 105);
+}
+.na {
+    background-color: #6f42c1;
+    padding: 20px;
+}
+.cards {
+margin-left: 15rem;
+margin-top: 10rem;
+width: 30rem;
+background-color: transparent;
+
+}
+.chead {
+  background-color: transparent;
+}
+.ccontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    width: 40rem;
+    height: 50rem;
+    border-left: 2px solid  rgb(250, 57, 105);
+    border-right: 2px solid #3168fd;
+    box-shadow: 2px 2px 32px;
+    background-color: rgb(255, 255, 255);
+}
+.ccontainer:hover {
+    border: 1px solid #6f42c1;
+    box-shadow: 1px 1px 12px #6f42c1;
+}
+.arr {
+    color: white;
+    display: flex;
+    justify-content:start;
+
+}
+.reset:hover {
+    border: 1px solid #6f42c1;
+    box-shadow: 1px 1px 12px #6f42c1;
+    background-color: rgb(250, 57, 105);
+}
+.reset {
+    width: 100px;
+    border: none;
+    border-radius:7px;
+    margin-left: 3px;
+    background-color: white;
+    border: 1px solid #6f42c1;
+}
+.ccontainer1 {
+    width: 40rem;
+    margin-top: 20rem;
+}
+.WeatherButton {
+    width: 100px;
+    border: none;
+    border-radius:7px;
+    margin-left: 3px;
+    background-color: white;
+    border: 1px solid #6f42c1;
+}
+.WeatherButton:hover {
+    border: 1px solid #6f42c1;
+    box-shadow: 1px 1px 12px #6f42c1;
+    background-color: rgb(250, 57, 105);
+}
